@@ -139,3 +139,5 @@
 * performance monitoring して slack 通知
 
 * Background Sync : オフラインの履歴をオンラインで再送
+
+* service worker : 自前　→　workbox
