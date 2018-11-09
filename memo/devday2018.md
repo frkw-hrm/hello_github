@@ -113,3 +113,29 @@
 * データをできる限り格納しておくことで変更に強くなる
 
 * TDD はひらめきを具現化するための備え
+
+## PWA
+
+* SPA を廃止
+
+* PWA : Fast Reliable Engaging
+
+* PRPL : Push Render Pre-cache Lazyload
+
+* Http/2 Server push -> H2O Fastly(CDN)
+
+* Render -> Critical css 人手
+
+* 画面表示の後に js 実行。SPA じゃないから。async/defer で
+
+* Pre-cache -> service worker(js) キャッシュ制御
+
+* いろいろできるけどバグにもつながる。泥臭い実装が必要。
+
+* prefetch preconnect prerender
+
+* lazyload -> dom の大きさ、深さを制御
+
+* performance monitoring して slack 通知
+
+* Background Sync : オフラインの履歴をオンラインで再送
